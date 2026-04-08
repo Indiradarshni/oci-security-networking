@@ -50,7 +50,7 @@ In real-world environments:
   
   4. Execute the command by updating the PRIVATE_VIEW_OCID, ZONE_NAME and CSV_FILE.
   
-  ./dns_records_update.sh --view-id ocid1.dnsview.oc1.iad.xxxxx --zone abc.com --file records.csv
+  ./dns_records_update.sh --view-id <ocid1.dnsview.oc1.iad.xxxxx> --zone <abc.com> --file <records.csv>
 
 - Behavior
   1. Processes DNS records from a CSV input file
